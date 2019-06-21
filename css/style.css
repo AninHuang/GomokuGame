@@ -1,0 +1,29 @@
+body {
+  background: #B993D6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2.title {
+  color: aliceblue;
+  text-shadow: 1px 1px antiquewhite;
+}
+
+.board-cell {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000; }
+
+.chessDOM {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
